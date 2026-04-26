@@ -1,0 +1,154 @@
+============================================================
+Document : clean_simple
+Job ID   : 23f9f06a-06c3-4cb5-ab5e-511c7e56368b
+Status   : done
+CER      : 0.0000
+Conf     : 95.7%
+————————————————————————————————————————
+GROUND TRUTH:
+The quick brown fox jumps over the lazy dog.
+
+EXTRACTED:
+The quick brown fox jumps over the lazy dog.
+
+
+============================================================
+Document : numbers_and_symbols
+Job ID   : 408451b9-f2b7-4d99-afe8-9f361fc3e5cd
+Status   : done
+CER      : 0.0000
+Conf     : 95.7%
+————————————————————————————————————————
+GROUND TRUTH:
+Invoice #4821: Total $1,234.56 (tax 8.5%)
+
+EXTRACTED:
+Invoice #4821: Total $1,234.56 (tax 8.5%)
+
+
+============================================================
+Document : mixed_case_technical
+Job ID   : eb5cabc5-883e-4639-a452-1c0d8a7949dc
+Status   : done
+CER      : 0.0000
+Conf     : 92.0%
+————————————————————————————————————————
+GROUND TRUTH:
+RabbitMQ connects Flask API to OCR Worker via AMQP.
+
+EXTRACTED:
+RabbitMQ connects Flask API to OCR Worker via AMQP.
+
+
+============================================================
+Document : digits_only
+Job ID   : 047ea5a5-4c29-4cac-8239-4bddd760ee61
+Status   : done
+CER      : 0.0000
+Conf     : 94.3%
+————————————————————————————————————————
+GROUND TRUTH:
+0123456789 0123456789 0123456789
+
+EXTRACTED:
+0123456789 0123456789 0123456789
+
+
+============================================================
+Document : uppercase_block
+Job ID   : c47823a5-a921-4b51-9603-955c1c6f2051
+Status   : done
+CER      : 0.0000
+Conf     : 95.2%
+————————————————————————————————————————
+GROUND TRUTH:
+DATACENTER SCALE COMPUTING FINAL PROJECT 2026
+
+EXTRACTED:
+DATACENTER SCALE COMPUTING FINAL PROJECT 2026
+
+
+============================================================
+Document : long_sentence
+Job ID   : 79a682b5-3c1a-4283-8f4e-aaccb8514b61
+Status   : done
+CER      : 0.0000
+Conf     : 95.7%
+————————————————————————————————————————
+GROUND TRUTH:
+PostgreSQL stores one record per job containing the job ID, file path, submission timestamp, current status, confidence score, and extracted text.
+
+EXTRACTED:
+PostgreSQL stores one record per job containing the job ID, file path, submission timestamp, current status, confidence score, and extracted text.
+
+
+============================================================
+Document : low_contrast_simulation
+Job ID   : 4d32d9c1-dd4d-4e83-a255-7aab4f217753
+Status   : done
+CER      : 0.0000
+Conf     : 95.8%
+————————————————————————————————————————
+GROUND TRUTH:
+Low contrast text is harder to read accurately.
+
+EXTRACTED:
+Low contrast text is harder to read accurately.
+
+
+============================================================
+Document : multiline_paragraph
+Job ID   : 42d05491-03cc-4c9b-bd23-6289cd795a38
+Status   : done
+CER      : 0.0000
+Conf     : 95.6%
+————————————————————————————————————————
+GROUND TRUTH:
+Scalable systems decouple ingestion from processing.
+Message queues absorb traffic spikes gracefully.
+Stateless workers enable horizontal scaling.
+
+EXTRACTED:
+Scalable systems decouple ingestion from processing.
+Message queues absorb traffic spikes gracefully.
+Stateless workers enable horizontal scaling.
+
+
+============================================================
+Document : punctuation_heavy
+Job ID   : 6998862c-5a84-483e-9e24-1f028bcd3ee6
+Status   : done
+CER      : 0.0000
+Conf     : 93.2%
+————————————————————————————————————————
+GROUND TRUTH:
+Error: "File not found" — please check path/to/file.txt.
+
+EXTRACTED:
+Error: "File not found" — please check path/to/file.txt.
+
+
+============================================================
+Document : multiline_technical
+Job ID   : 33ac4ecb-2f06-450a-bcd6-5a67ea73b86c
+Status   : done
+CER      : 0.0000
+Conf     : 95.4%
+————————————————————————————————————————
+GROUND TRUTH:
+REST API accepts uploads via Flask.
+RabbitMQ routes jobs to OCR workers.
+MinIO stores raw files in object storage.
+PostgreSQL persists job metadata and results.
+Redis caches completed job responses.
+
+EXTRACTED:
+REST API accepts uploads via Flask.
+
+RabbitMQ routes jobs to OCR workers.
+
+MinIO stores raw files in object storage.
+PostgreSQL persists job metadata and results.
+Redis caches completed job responses.
+
+

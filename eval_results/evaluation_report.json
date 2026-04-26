@@ -1,0 +1,116 @@
+{
+  "timestamp": "2026-04-26T00:15:26.043055",
+  "results": [
+    {
+      "doc_name": "clean_simple",
+      "job_id": "23f9f06a-06c3-4cb5-ab5e-511c7e56368b",
+      "status": "done",
+      "extracted_text": "The quick brown fox jumps over the lazy dog.\n",
+      "confidence": 95.66666666666667,
+      "cer": 0.0,
+      "elapsed_sec": 8.44,
+      "error": ""
+    },
+    {
+      "doc_name": "numbers_and_symbols",
+      "job_id": "408451b9-f2b7-4d99-afe8-9f361fc3e5cd",
+      "status": "done",
+      "extracted_text": "Invoice #4821: Total $1,234.56 (tax 8.5%)\n",
+      "confidence": 95.66666666666667,
+      "cer": 0.0,
+      "elapsed_sec": 11.59,
+      "error": ""
+    },
+    {
+      "doc_name": "mixed_case_technical",
+      "job_id": "eb5cabc5-883e-4639-a452-1c0d8a7949dc",
+      "status": "done",
+      "extracted_text": "RabbitMQ connects Flask API to OCR Worker via AMQP.\n",
+      "confidence": 92.0,
+      "cer": 0.0,
+      "elapsed_sec": 16.06,
+      "error": ""
+    },
+    {
+      "doc_name": "digits_only",
+      "job_id": "047ea5a5-4c29-4cac-8239-4bddd760ee61",
+      "status": "done",
+      "extracted_text": "0123456789 0123456789 0123456789\n",
+      "confidence": 94.33333333333333,
+      "cer": 0.0,
+      "elapsed_sec": 16.68,
+      "error": ""
+    },
+    {
+      "doc_name": "uppercase_block",
+      "job_id": "c47823a5-a921-4b51-9603-955c1c6f2051",
+      "status": "done",
+      "extracted_text": "DATACENTER SCALE COMPUTING FINAL PROJECT 2026\n",
+      "confidence": 95.16666666666667,
+      "cer": 0.0,
+      "elapsed_sec": 16.89,
+      "error": ""
+    },
+    {
+      "doc_name": "long_sentence",
+      "job_id": "79a682b5-3c1a-4283-8f4e-aaccb8514b61",
+      "status": "done",
+      "extracted_text": "PostgreSQL stores one record per job containing the job ID, file path, submission timestamp, current status, confidence score, and extracted text.\n",
+      "confidence": 95.66666666666667,
+      "cer": 0.0,
+      "elapsed_sec": 18.83,
+      "error": ""
+    },
+    {
+      "doc_name": "low_contrast_simulation",
+      "job_id": "4d32d9c1-dd4d-4e83-a255-7aab4f217753",
+      "status": "done",
+      "extracted_text": "Low contrast text is harder to read accurately.\n",
+      "confidence": 95.75,
+      "cer": 0.0,
+      "elapsed_sec": 19.21,
+      "error": ""
+    },
+    {
+      "doc_name": "multiline_paragraph",
+      "job_id": "42d05491-03cc-4c9b-bd23-6289cd795a38",
+      "status": "done",
+      "extracted_text": "Scalable systems decouple ingestion from processing.\nMessage queues absorb traffic spikes gracefully.\nStateless workers enable horizontal scaling.\n",
+      "confidence": 95.6470588235294,
+      "cer": 0.0,
+      "elapsed_sec": 21.2,
+      "error": ""
+    },
+    {
+      "doc_name": "punctuation_heavy",
+      "job_id": "6998862c-5a84-483e-9e24-1f028bcd3ee6",
+      "status": "done",
+      "extracted_text": "Error: \"File not found\" \u2014 please check path/to/file.txt.\n",
+      "confidence": 93.25,
+      "cer": 0.0,
+      "elapsed_sec": 21.29,
+      "error": ""
+    },
+    {
+      "doc_name": "multiline_technical",
+      "job_id": "33ac4ecb-2f06-450a-bcd6-5a67ea73b86c",
+      "status": "done",
+      "extracted_text": "REST API accepts uploads via Flask.\n\nRabbitMQ routes jobs to OCR workers.\n\nMinIO stores raw files in object storage.\nPostgreSQL persists job metadata and results.\nRedis caches completed job responses.\n",
+      "confidence": 95.36666666666666,
+      "cer": 0.0,
+      "elapsed_sec": 23.25,
+      "error": ""
+    }
+  ],
+  "summary": {
+    "n_total": 10,
+    "n_done": 10,
+    "n_failed": 0,
+    "mean_cer": 0.0,
+    "median_cer": 0.0,
+    "max_cer": 0.0,
+    "min_cer": 0.0,
+    "pass_rate": 1.0,
+    "mean_conf": 94.85
+  }
+}
